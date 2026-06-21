@@ -9,5 +9,7 @@ Claude Code reads `CLAUDE.md`, so this file imports them:
 
 The Matt Pocock workflow skills are vendored in `.agents/skills/` (the agent-agnostic
 location) and exposed to Claude Code via the `.claude/skills` symlink. They are available
-as slash commands — the spine of the build loop is `/grill-with-docs` → `/to-prd` → `tdd`.
-See `AGENTS.md` for how they fit the cycle.
+as slash commands — the spine of the build loop is `/grill-with-docs` → `/to-prd` →
+`/to-issues` → `tdd`, with artifacts (ADRs, glossary, PRD, dependency-ordered issues) landing
+in `docs/` and `.scratch/`. Run `/setup-matt-pocock-skills` once to configure the local
+issue tracker. See `AGENTS.md` for how they fit the cycle.

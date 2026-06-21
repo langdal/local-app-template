@@ -88,6 +88,22 @@
   color: #888;
 }
 
+.home code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  color: #cbd5e1;
+}
+
+@media (prefers-color-scheme: light) {
+  .home code {
+    background-color: #e8e8e8;
+    color: #334155;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   .home h1 {
     color: #213547;
