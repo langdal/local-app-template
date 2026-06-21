@@ -1,0 +1,27 @@
+{
+  "name": "local-web-tool-template",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Template for a single-page data upload and visualization web application",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.3.0"
+  }
+}
